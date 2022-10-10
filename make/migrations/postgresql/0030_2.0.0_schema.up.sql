@@ -232,3 +232,4 @@ SET event_type = CASE
 	WHEN notification_job.event_type = 'scanningCompleted' THEN 'SCANNING_COMPLETED'
 	ELSE event_type
 END;
+

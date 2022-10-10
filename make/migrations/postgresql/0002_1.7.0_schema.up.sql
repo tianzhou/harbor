@@ -56,3 +56,4 @@ END $$;
 
 ALTER TABLE replication_policy ADD CONSTRAINT unique_policy_name UNIQUE (name);
 ALTER TABLE replication_target ADD CONSTRAINT unique_target_name UNIQUE (name);
+

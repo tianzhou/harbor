@@ -638,3 +638,4 @@ END $$;
 
 DROP TABLE IF EXISTS retention_task;
 DROP TABLE IF EXISTS retention_execution;
+

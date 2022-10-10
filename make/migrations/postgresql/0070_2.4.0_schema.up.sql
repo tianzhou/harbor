@@ -9,3 +9,4 @@ ALTER TABLE quota_usage ADD COLUMN IF NOT EXISTS version bigint DEFAULT 0;
 
 /* convert Negligible to None for the severity of the vulnerability record */
 UPDATE vulnerability_record SET severity='None' WHERE severity='Negligible';
+

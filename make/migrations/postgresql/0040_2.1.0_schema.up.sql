@@ -142,3 +142,4 @@ ALTER TABLE schema_migrations DROP COLUMN IF EXISTS data_version;
 
 ALTER TABLE artifact ADD COLUMN IF NOT EXISTS icon varchar(255);
 
+
